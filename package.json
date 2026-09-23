@@ -1,0 +1,20 @@
+{
+  "name": "node-testing-boilerplate",
+  "version": "1.0.0",
+  "description": "Sample Node.js project boilerplate with Jest tests",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["node", "jest", "testing", "boilerplate"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
