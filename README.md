@@ -1,6 +1,6 @@
-# Node Testing Boilerplate
+# Node Test Boilerplate
 
-A small Node.js starter with Jest, sample modules, and example tests.
+Sample Node.js project with Jest unit tests.
 
 ## Setup
 
@@ -14,7 +14,7 @@ npm install
 npm start
 ```
 
-## Test
+## Tests
 
 ```bash
 npm test
@@ -22,12 +22,14 @@ npm run test:watch
 npm run test:coverage
 ```
 
-## Layout
+## Structure
 
-```text
-src/          app and helper modules
-tests/        Jest test files
-jest.config.js
 ```
-
-Add new helpers under `src/` and matching `*.test.js` files under `tests/`.
+src/
+  calculator.js   # add, subtract, multiply, divide, power, modulo, square, squareRoot, percentage, average
+  greeter.js      # greet(name)
+  index.js        # sample entry point
+tests/
+  calculator.test.js
+  greeter.test.js
+```
